@@ -9,6 +9,7 @@ input{
     width: 300px;
 }
 .heart {
+    display: flex;
     --c: red;
   width: 200px;
   aspect-ratio: 1;
@@ -17,6 +18,8 @@ input{
    radial-gradient(at 30% 31%,var(--c) 29%,#0000 30%),
    conic-gradient(from -45deg at 50% 84%,var(--c) 90deg,#0000 0) 
     bottom/100% 50% no-repeat;
+    justify-content: center;
+    align-items: center;
 }
  #answer{
     z-index: 10000;
